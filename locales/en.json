@@ -1,11 +1,16 @@
 {
   "user": {
     "age": {
-      "one": "you are a %{age} year old",
-      "two": "you are %{age} years old",
-      "few": "you are %{age} years old",
-      "many": "you are %{age} years old",
+      "one": "you are a year old",
       "other": "you are %{age} years old"
+    },
+    "drink": {
+      "_format": "ordinal",
+      "0": "you haven't had any drinks yet",
+      "one": "this is your %{count}st drink",
+      "two": "this is your %{count}nd drink",
+      "few": "this is your %{count}rd drink",
+      "other": "this is your %{count}th drink"
     },
     "name": "%{name} Welcome"
   }

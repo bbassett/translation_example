@@ -18,6 +18,7 @@ app.get('/', function(req, res) {
   res.send({
     age: t.user.age({age: query.age || 20}),
     name: t.user.name({name: query.name || 'user'}),
+    drink: t.user.drink({count: query.drinks || 0}),
     decimal: t.number.decimal(100000000),
     currency: t.number.currency(100000000, {unit: '$'}),
     percent: t.number.percent(100000000),

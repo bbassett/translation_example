@@ -2,10 +2,12 @@
   "user": {
     "age": {
       "one": "voce tem %{age} ano",
-      "two": "voce tem %{age} anos",
-      "few": "voce tem %{age} anos",
-      "many": "voce tem %{age} anos",
       "other": "voce tem %{age} anos"
+    },
+    "drink": {
+      "_format": "ordinal",
+      "0": "Você ainda não tomou nenhuma bebida",
+      "other": "Esta é a sua %{count}ª bebida"
     },
     "name": "bem vindo %{name}"
   }
