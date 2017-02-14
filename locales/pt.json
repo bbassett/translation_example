@@ -1,0 +1,12 @@
+{
+  "user": {
+    "age": {
+      "one": "voce tem %{age} ano",
+      "two": "voce tem %{age} anos",
+      "few": "voce tem %{age} anos",
+      "many": "voce tem %{age} anos",
+      "other": "voce tem %{age} anos"
+    },
+    "name": "bem vindo %{name}"
+  }
+}

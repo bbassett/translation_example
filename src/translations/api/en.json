@@ -1,7 +1,0 @@
-{
-  "user": {
-    "name": "What's your name?",
-    "name_is": "Your Name is {name: name}, and you're old!",
-    "age": "What's your age"
-  }
-}

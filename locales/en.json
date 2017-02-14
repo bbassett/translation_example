@@ -1,0 +1,12 @@
+{
+  "user": {
+    "age": {
+      "one": "you are a %{age} year old",
+      "two": "you are %{age} years old",
+      "few": "you are %{age} years old",
+      "many": "you are %{age} years old",
+      "other": "you are %{age} years old"
+    },
+    "name": "%{name} Welcome"
+  }
+}
